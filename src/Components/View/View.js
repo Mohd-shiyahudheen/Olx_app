@@ -14,7 +14,7 @@ function View() {
         setUserDetails(doc.data())
       })
     })
-  },[])
+  })
 
   return (
     <div className="viewParentDiv">
